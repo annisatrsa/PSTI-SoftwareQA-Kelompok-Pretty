@@ -1,0 +1,312 @@
+{
+  "id": "8cc9ee2f-beb7-49f1-9836-44f187e2a562",
+  "version": "2.0",
+  "name": "Spotify Testing",
+  "url": "https://open.spotify.com/",
+  "tests": [{
+    "id": "1690be58-e30f-42ad-aeba-537f7252a1d3",
+    "name": "Log in",
+    "commands": [{
+      "id": "6f6ccace-c582-4229-9588-f39140165e38",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "223503ba-208d-468c-bf90-a3d35cd09eb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9823b7be-7e49-4678-b790-8a12ca848863",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21023c6-361b-494d-bdf0-e57d0c157041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ButtonInner-sc-14ud5tc-0",
+      "targets": [
+        ["css=.ButtonInner-sc-14ud5tc-0", "css:finder"],
+        ["xpath=//button[@id='login-button']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef5393e-c9f3-45e7-b410-22c5965a2d16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Z35BWOA10YGn5uc9YgAp:nth-child(4) .e-9921-button-primary > .e-9921-baseline",
+      "targets": [
+        ["css=.Z35BWOA10YGn5uc9YgAp:nth-child(4) .e-9921-button-primary > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main-view']/div/div[2]/div/div/main/section/div/section/div/div[4]/div/div[2]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fa0bfe-5b1e-43e8-8129-19beb706d6dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Z35BWOA10YGn5uc9YgAp:nth-child(4) .e-9921-button-primary > .e-9921-baseline",
+      "targets": [
+        ["css=.Z35BWOA10YGn5uc9YgAp:nth-child(4) .e-9921-button-primary > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main-view']/div/div[2]/div/div/main/section/div/section/div/div[4]/div/div[2]/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "777b7661-b870-4efa-9b03-923084e77e15",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Install App",
+      "targets": [
+        ["linkText=Install App", "linkText"],
+        ["css=.dzIYeQ", "css:finder"],
+        ["xpath=//div[@id='global-nav-bar']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/download')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Install App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ec3819-183e-4c67-b469-d40d37a22598",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.giZtyl:nth-child(2)",
+      "targets": [
+        ["css=.giZtyl:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='global-nav-bar']/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf90c2a-3350-43e5-8c18-43e0fe327103",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.giZtyl:nth-child(2)",
+      "targets": [
+        ["css=.giZtyl:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='global-nav-bar']/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ada36a9c-d934-43b7-ab87-ece22597e624",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Xz3tlahv16UpqKBW5HdK",
+      "targets": [
+        ["css=.Xz3tlahv16UpqKBW5HdK", "css:finder"],
+        ["xpath=//img[@alt='bumibiru']", "xpath:img"],
+        ["xpath=//div[@id='global-nav-bar']/div[3]/div/button[2]/figure/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8b8a96-c723-4fb8-b793-c99effd0b0c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rQ6LXqVlEOGZdGIG0LgP:nth-child(2) .Type__TypeElement-sc-goli3j-0",
+      "targets": [
+        ["css=.rQ6LXqVlEOGZdGIG0LgP:nth-child(2) .Type__TypeElement-sc-goli3j-0", "css:finder"],
+        ["xpath=//div[@id='context-menu']/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e01eea06-a011-417b-983d-50bd70dd2928",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.j9I5h3Z4o0fKNgI1fIjb .mMx2LUixlnN_Fu45JpFB",
+      "targets": [
+        ["css=.j9I5h3Z4o0fKNgI1fIjb .mMx2LUixlnN_Fu45JpFB", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.scdn.co/image/f59c02125f70dbce2385090ddde01625c7cfb5c1')]", "xpath:img"],
+        ["xpath=//aside[@id='Desktop_PanelContainer_Id']/div/div[2]/div/div/div/div/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21448461-3a9e-406b-87b5-fac1fa3f5116",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.j9I5h3Z4o0fKNgI1fIjb .mMx2LUixlnN_Fu45JpFB",
+      "targets": [
+        ["css=.j9I5h3Z4o0fKNgI1fIjb .mMx2LUixlnN_Fu45JpFB", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.scdn.co/image/f59c02125f70dbce2385090ddde01625c7cfb5c1')]", "xpath:img"],
+        ["xpath=//aside[@id='Desktop_PanelContainer_Id']/div/div[2]/div/div/div/div/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da78cf1b-f97f-413f-a22b-a9d9f6a96b2d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=10 Followers",
+      "targets": [
+        ["linkText=10 Followers", "linkText"],
+        ["css=.blfR_YJUsKUvdgTejBSb > a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='main-view']/div/div[2]/div/div/main/section/div/div/div[3]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/0ljc0kf2yuepbpl1aux3ny2fy/followers')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'10 Followers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e90362a0-adb5-413e-95f5-d2a9d6a0ede2",
+    "name": "Play lagu ",
+    "commands": [{
+      "id": "6bc68208-1adf-499d-b942-3557ced81590",
+      "comment": "",
+      "command": "open",
+      "target": "https://open.spotify.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a77b81d-d6dc-41c3-896c-eb24deab7f03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc030ddf-093e-4cad-9b56-fa993727ee63",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e-9921-button-primary > .encore-inverted-light-set",
+      "targets": [
+        ["css=.e-9921-button-primary > .encore-inverted-light-set", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c66007a0-fef4-48a3-9c61-3dff8fa5b460",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e-9921-button-primary > .encore-inverted-light-set",
+      "targets": [
+        ["css=.e-9921-button-primary > .encore-inverted-light-set", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a905566-cd1a-491f-a623-798e33803c57",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e-9921-button-primary > .encore-inverted-light-set",
+      "targets": [
+        ["css=.e-9921-button-primary > .encore-inverted-light-set", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cd8660-8d4c-4660-a2a4-e4c9457bb98e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e-9921-button-primary > .encore-inverted-light-set",
+      "targets": [
+        ["css=.e-9921-button-primary > .encore-inverted-light-set", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc520f1-e426-468f-9ac3-a243d625bd7f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ed2058c-cf22-48aa-afa1-ea57ac7e0295",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c44ce5-e1d8-4348-b05d-e575e48d9cb3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e-9921-button-primary:nth-child(2) path",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da6dbbc-dcbe-4a4f-9116-d09f1bd365b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-9921-button-primary:nth-child(2) path",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa8b0ce0-42a3-4634-b2a9-e2b20740b65c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6fbaef-8fc8-4f4b-b266-df7b146010a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) > .e-9921-baseline", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div[4]/aside/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7764077-07bd-4694-81c8-7f3c79466c6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-9921-button-primary:nth-child(2) path",
+      "targets": [
+        ["css=.e-9921-button-primary:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66d5b6b0-7ed3-4fc3-8be3-2716fa3bbb24",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1690be58-e30f-42ad-aeba-537f7252a1d3"]
+  }],
+  "urls": ["https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F", "https://open.spotify.com/"],
+  "plugins": []
+}
